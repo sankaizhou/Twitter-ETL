@@ -10,11 +10,11 @@ from datetime import datetime
 import s3fs
 
 def run_twitter_etl():
-    api_key = "LO3Z2mVGz8srnc1kpPuepelAR"
-    api_secret = "Fjjtd1CsClo20Lia2sEuaxpPmscEMaBHe2AmCZ3gGPyRR9WO0z"
-    bearer_token = r"AAAAAAAAAAAAAAAAAAAAACNblgEAAAAAC%2B1BmdzIdj2MD2SYulxbZuElThM%3Dj3fK6d7E3uTlQ0w9wBSD0WrwV4604FcBaNge95Fnxbobion9Tr"
-    access_token = "1620904570754060288-4h8qQuFrArPvNqaMPrgo0pWubDuRfx"
-    access_token_secret = "A0lxWhhyRyJZwTaVANJAC2Ph5dXfhwLtGkM0ddr7i6N6q"
+    api_key = "****************************"
+    api_secret = "****************************"
+    bearer_token = r"****************************"
+    access_token = "****************************"
+    access_token_secret = "****************************"
     
     '''Twitter authentication'''
     client = tweepy.Client(bearer_token, api_key, api_secret, access_token, access_token_secret)
